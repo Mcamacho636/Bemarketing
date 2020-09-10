@@ -4,24 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!--INCLUIMOS BOOSTRAP 4.5 EN EL PROYECTO-->
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap/w3.css">
-    <link rel="stylesheet" href="css/empresas.css">
-    <link rel="stylesheet" href="css/styles.css ">
+   
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/carrusel.css">
+    <link rel="stylesheet" href="CSS/empresas.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>BeMarketing</title>
-
-    <script src="scripts/bootstrap.min.js"></script>
-    <script src="scripts/jquery-3.5.1.slim.min.js"></script>
-    <script src="scripts/popper.min.js"></script>
-    <script src="scripts/navbar.js"></script>
+ 
+    <script src="Scripts/nav.js"></script>
+    <script src="Scripts/servicios.js"></script>
+    <script src="Scripts/carrusel.js"></script>
+    <script src="Scripts/carrusel_automatico.js"></script>
 </head>
 
-<body>
+<body onload="currentSlide(3)">
+
     <!--NavBar-->
-    <?php require("templates/navbar.php");?>
-    <!--Contenido-->
+    <?php require("templates/nav.php");?>
+    <?php require("templates/carrusel.php");?>
     <?php require("pages/index.php");?>
+    <?php require("templates/footer.php");?>
 </body>
 
 </html>
