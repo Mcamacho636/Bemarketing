@@ -1,552 +1,672 @@
-        html {
-            box-sizing: border-box;
-            font-size: 62.5%;
-            /*reset para REEMS - 62.5% = 10 px */
-        }
-        /* UTILIDADES */
-        
-        .Centrar-Texto {
-            text-align: center;
-        }
-        
-        img {
-            width: 100%;
-        }
-        
-        h1 {
-            font-size: 3.5rem;
-        }
-        
-        h2 {
-            font-size: 3rem;
-        }
-        
-        h3 {
-            font-size: 2.5rem;
-        }
-        
-        .Texto-Mayusculas {
-            text-transform: uppercase;
-        }
-        
-        .Boton-Negro {
-            background-color: #000000;
-            width: 20rem;
-            text-align: center;
-            text-decoration: none;
-            color: #ffffff;
-            border: none;
-            padding: 2rem 3.6rem;
-            margin: 0;
-            display: inline-block;
-            font-size: 1.5rem;
-            cursor: pointer;
-            text-transform: uppercase;
-            border-radius: 1rem;
-        }
-        /* NAV */
-        
-        #navbar {
-            transition: top 0.3s;
-        }
-        
-        .topnav {
-            width: 100%;
-            background-color: #000000;
-            overflow: hidden;
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .topnav a,
-        .color-blanco-nav a {
-            float: right;
-            display: block;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            color: #ffffff;
-            font-size: 2rem;
-        }
-        
-        .nav-enlaces {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-        
-        .topnav a:hover,
-        .color-blanco-nav a:hover {
-            color: gold;
-        }
-        
-        .topnav .icon {
-            display: none;
-        }
-        
-        .icono-nav {
-            position: relative;
-            left: 10px;
-        }
-        
-        .fa-bars {
-            font-size: 20px;
-        }
-        
-        .active-nav {
-            visibility: hidden;
-        }
-        /* FOOTER */
-        
-        .nav-footer {
-            background-color: #000000;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            width: 100%;
-            height: 50px;
-        }
-        
-        .footer-content {
-            margin-top: 12px;
-            margin-right: 20px;
-        }
-        
-        .footer-content a {
-            color: #ffffff;
-            font-size: 20px;
-            text-decoration: none;
-            text-transform: uppercase;
-            margin-top: 10px;
-            padding-left: 20px;
-        }
-        
-        .footer-content a:hover {
-            color: #F9CC34;
-        }
-        
-        .footer-imgs {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            padding-left: 30px;
-        }
-        
-        .footer-imgs img {
-            width: 30px;
-            height: 30px;
-            padding-top: 10px;
-            padding-right: 15px;
-            padding-left: 5px;
-        }
-        
-        @media screen and (max-width: 750px) {
-            .topnav {
-                display: block;
-            }
-            .topnav a:not(:first-child) {
-                display: none;
-            }
-            .topnav a.icon {
-                float: right;
-                display: block;
-            }
-            .fa-icon {
-                font-size: 20px;
-            }
-            .topnav a.icon:hover {
-                color: #ffffff;
-            }
-            .topnav a {
-                float: left;
-            }
-            .icono-nav {
-                display: none;
-            }
-            .active-nav {
-                visibility: visible;
-            }
-            .nav-enlaces {
-                display: block;
-            }
-        }
-        
-        @media screen and (max-width: 750px) {
-            .topnav.responsive {
-                position: relative;
-            }
-            .topnav.responsive .icon {
-                position: absolute;
-                right: 0;
-                top: 0;
-            }
-            .topnav.responsive a {
-                float: none;
-                display: block;
-                text-align: left;
-            }
-            .nav-footer {
-                display: none;
-            }
-        }
-        /* CONTENEDORES*/
-        /* contenedor de seccion */
-        
-        .Contenedor-Seccion {
-            max-width: 100%;
-            margin: 8rem 0rem;
-        }
-        /* CSS para Tarjeta Simple (image, titulo, texto) */
-        
-        .Tarjeta-Simple {
-            width: 30rem;
-            height: auto;
-            padding-bottom: 2rem;
-            box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2rem 0 rgba(0, 0, 0, 0.19);
-            border-radius: 2rem;
-            align-items: center;
-        }
-        
-        .Tarjeta-Simple img {
-            width: 100%;
-            height: 20rem;
-            border-radius: 2rem 2rem 0rem 0rem;
-        }
-        
-        .Contenido-Tarjeta-Simple {
-            width: calc(100% - 4rem);
-            padding: 0 2rem 0 2rem;
-        }
-        
-        .Contenido-Tarjeta-Simple h3 {
-            width: 100%;
-            font-size: 2rem;
-            text-align: center;
-        }
-        
-        .Contenido-Tarjeta-Simple p {
-            text-align: justify;
-            font-size: 1.5rem;
-        }
-        /* CSS para tarjeta con botón */
-        
-        .Tarjeta-Boton {
-            width: 30rem;
-            height: auto;
-            padding-bottom: 2rem;
-            box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2rem 0 rgba(0, 0, 0, 0.19);
-            border-radius: 2rem;
-            align-items: center;
-        }
-        
-        .Tarjeta-Boton img {
-            width: 100%;
-            height: 20rem;
-            border-radius: 2rem 2rem 0 0;
-        }
-        
-        .Contenido-Tarjeta-Boton {
-            width: calc(100% - 4rem);
-            padding: 0 2rem 0px 2rem;
-        }
-        
-        .Contenido-Tarjeta-Boton p {
-            text-align: justify;
-            font-size: 1.5rem;
-        }
-        
-        .Contenido-Tarjeta-Boton h3 {
-            width: 100%;
-            font-size: 2rem;
-            text-align: center;
-        }
-        
-        .Boton-Tarjeta {
-            width: calc(100% - 6rem);
-            background-color: #F9CC34;
-            text-align: center;
-            text-decoration: none;
-            color: #ffffff;
-            border: none;
-            padding: 1.5rem 3.2rem;
-            margin: 0;
-            display: inline-block;
-            font-size: 1.5rem;
-            cursor: pointer;
-            text-transform: uppercase;
-            border-radius: 1rem;
-        }
-        /* CSS para Tarjeta de Entrada de Blog*/
-        
-        .Tarjeta-Blog {
-            display: flex;
-            flex-direction: row;
-            width: 55rem;
-            height: 25rem;
-            box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2rem 0 rgba(0, 0, 0, 0.19);
-            border-radius: 2rem;
-            align-items: center;
-            text-decoration: none;
-        }
-        
-        .Tarjeta-Blog img {
-            width: 30rem;
-            height: 25rem;
-            border-radius: 2rem 0 0 2rem;
-        }
-        
-        .Contenido-Tarjeta-Blog {
-            width: 25rem;
-            padding: 0 2rem 0 2rem;
-        }
-        
-        .Contenido-Tarjeta-Blog h3 {
-            width: 100%;
-            font-size: 2rem;
-            text-align: center;
-            color: #000000;
-        }
-        
-        .Tarjeta-Blog-Fecha {
-            text-align: center;
-            font-size: 1.3rem;
-            color: #000000;
-        }
-        
-        .Contenido-Tarjeta-Blog p {
-            text-align: justify;
-            font-size: 1.5rem;
-            color: #000000;
-        }
-        /* CSS para Tarjeta tipo Flip*/
-        
-        .flip-card {
-            background-color: transparent;
-            width: 300px;
-            height: 300px;
-            perspective: 1000px;
-        }
-        
-        .flip-card-inner {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            border-radius: 20px;
-            text-align: center;
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        }
-        
-        .flip-card:hover .flip-card-inner {
-            transform: rotateY(180deg);
-        }
-        
-        .flip-card-front,
-        .flip-card-back {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border-radius: 20px;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-        }
-        
-        .flip-card-front {
-            background-color: #bbb;
-            color: black;
-        }
-        
-        .flip-card-back {
-            background-color: #F9CC34;
-            color: white;
-            transform: rotateY(180deg);
-            padding: 0 1rem;
-        }
-        
-        .flip-card-back p {
-            font-size: 2rem;
-        }
-        
-        @media screen and (max-width: 750px) {
-            .flip-card:hover .flip-card-inner {
-                transform: rotateY(0deg);
-            }
-        }
-        /* CSS par Tarjeta con Contador */
-        /* Float four columns side by side */
-        
-        .column {
-            float: left;
-            width: 25%;
-            padding: 0 10px;
-            margin-top: 20px;
-        }
-        
-        .row {
-            margin: 0 -5px;
-            width: 100%;
-        }
-        
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-        
-        @media screen and (max-width: 750px) {
-            .column {
-                width: 50%;
-                display: block;
-                margin: 2rem 25% 0 25%;
-            }
-        }
-        
-        .card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            padding: 16px;
-            text-align: center;
-            background-color: #F9CC34;
-            color: #ffffff;
-            border-radius: 2rem;
-        }
-        /* PAGINAS */
-        /* Index */
-        /* seccion más sobre nosotros */
-        
-        .Contenido-Nosotros {
-            width: 80%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-top: 2rem;
-            padding: 0 10%;
-        }
-        
-        @media screen and (max-width: 750px) {
-            .Contenido-Nosotros {
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                width: 100%;
-                padding: 0;
-            }
-            .Contenido-Nosotros div {
-                margin-bottom: 1rem;
-            }
-        }
-        /* Seccion de servicios */
-        
-        .Contenido-Servicios {
-            margin: 0 10%;
-        }
-        
-        .tab {
-            overflow: hidden;
-            border: .1rem solid #ccc;
-            background-color: #000000;
-            width: 80%;
-            display: flex;
-            justify-content: center;
-        }
-        
-        .tab button {
-            width: 100px;
-            margin: 0;
-            background-color: #F9CC34;
-            float: left;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 1.4rem 1.6rem;
-            transition: 0.3s;
-            font-size: 1.7rem;
-            margin-right: 40px;
-            margin-left: 40px;
-        }
-        
-        .tab button:hover {
-            background-color: #ddd;
-        }
-        
-        .tab button.active {
-            background-color: #ccc;
-        }
-        
-        .tabcontent {
-            width: 80%;
-            height: 40rem;
-            display: none;
-            border: .1rem solid #ccc;
-            border-top: none;
-            margin: 0;
-        }
-        
-        .tabcontent img {
-            height: 100%;
-            width: 100%;
-        }
-        /* Sección de trabajos*/
-        
-        .Contenido-Trabajos {
-            width: 80%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-top: 2rem;
-            padding: 0 10%;
-        }
-        
-        @media screen and (max-width: 750px) {
-            .Contenido-Trabajos {
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                width: 100%;
-                padding: 0;
-            }
-            .Contenido-Trabajos a {
-                margin-bottom: 1rem;
-            }
-        }
-        /*Sección de clientes*/
-        
-        @media screen and (min-width: 750px) {
-            .Contenido-Clientes {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-            }
-        }
-        /* Sección de Contacto */
-        
-        .Contenido-Contacto {
-            width: 100%;
-            padding: 2rem 0;
-            margin: 0;
-            background-color: #F9CC34;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        /* Sección de Blog */
-        
-        .Contenido-Blog {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            padding: 0 5% 0 5%;
-        }
-        
-        @media screen and (max-width: 750px) {
-            .Contenido-Blog {
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .Contenido-Blog a {
-                margin-bottom: 1rem;
-            }
-        }
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*reset para REEMS - 62.5% = 10 px */
+}
+
+
+/* UTILIDADES */
+
+.Centrar-Texto {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+.Texto-Mayusculas {
+    text-transform: uppercase;
+}
+
+.Boton-Negro {
+    background-color: #000000;
+    width: 20rem;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    padding: 2rem 3.6rem;
+    margin: 0;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 1rem;
+}
+
+
+/* NAV */
+
+#navbar {
+    position: fixed;
+    /* Make it stick/fixed */
+    top: 0;
+    /* Stay on top */
+    width: 100%;
+    /* Full width */
+    transition: top 0.3s;
+    /* Transition effect when sliding down (and up) */
+    transition: top 0.3s;
+    z-index: 5;
+}
+
+.topnav {
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topnav a,
+.color-blanco-nav a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.nav-enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topnav a:hover,
+.color-blanco-nav a:hover {
+    color: gold;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.icono-nav {
+    position: relative;
+    left: 10px;
+}
+
+.fa-bars {
+    font-size: 20px;
+}
+
+.active-nav {
+    visibility: hidden;
+}
+
+
+/* FOOTER */
+
+.nav-footer {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.footer-content {
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.footer-content a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.footer-content a:hover {
+    color: #F9CC34;
+}
+
+.footer-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.footer-imgs img {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 750px) {
+    .topnav {
+        display: block;
+    }
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .fa-icon {
+        font-size: 20px;
+    }
+    .topnav a.icon:hover {
+        color: #ffffff;
+    }
+    .topnav a {
+        float: left;
+    }
+    .icono-nav {
+        display: none;
+    }
+    .active-nav {
+        visibility: visible;
+    }
+    .nav-enlaces {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .nav-footer {
+        display: none;
+    }
+}
+
+
+/* BOTON IR ARRIBA */
+
+a.scroll-top {
+    color: #fff;
+    display: none;
+    width: 45px;
+    height: 40px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 60px;
+    right: 30px;
+    font-size: 20px;
+    background: #222;
+    border-radius: 3px !important;
+    text-align: center;
+    border: 1px solid hsla(0, 0%, 78%, 0.3)
+}
+
+a.scroll-top i {
+    position: relative;
+    top: 2px;
+}
+
+
+/* CONTENEDORES*/
+
+
+/* contenedor de seccion */
+
+.Contenedor-Seccion {
+    max-width: 100%;
+    margin: 8rem 0rem;
+}
+
+
+/* CSS para Tarjeta Simple (image, titulo, texto) */
+
+.Tarjeta-Simple {
+    width: 30rem;
+    height: auto;
+    padding-bottom: 2rem;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2rem 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    align-items: center;
+}
+
+.Tarjeta-Simple img {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.Contenido-Tarjeta-Simple {
+    width: calc(100% - 4rem);
+    padding: 0 2rem 0 2rem;
+}
+
+.Contenido-Tarjeta-Simple h3 {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Contenido-Tarjeta-Simple p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+
+/* CSS para tarjeta con botón */
+
+.Tarjeta-Boton {
+    width: 30rem;
+    height: auto;
+    padding-bottom: 2rem;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2rem 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    align-items: center;
+}
+
+.Tarjeta-Boton img {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.Contenido-Tarjeta-Boton {
+    width: calc(100% - 4rem);
+    padding: 0 2rem 0px 2rem;
+}
+
+.Contenido-Tarjeta-Boton p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.Contenido-Tarjeta-Boton h3 {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Boton-Tarjeta {
+    width: calc(100% - 6rem);
+    background-color: #F9CC34;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    padding: 1.5rem 3.2rem;
+    margin: 0;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 1rem;
+}
+
+
+/* CSS para Tarjeta de Entrada de Blog*/
+
+.Tarjeta-Blog {
+    display: flex;
+    flex-direction: row;
+    width: 55rem;
+    height: 25rem;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2rem 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Tarjeta-Blog img {
+    width: 30rem;
+    height: 25rem;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.Contenido-Tarjeta-Blog {
+    width: 25rem;
+    padding: 0 2rem 0 2rem;
+}
+
+.Contenido-Tarjeta-Blog h3 {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    color: #000000;
+}
+
+.Tarjeta-Blog-Fecha {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #000000;
+}
+
+.Contenido-Tarjeta-Blog p {
+    text-align: justify;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+
+/* CSS para Tarjeta tipo Flip*/
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #F9CC34;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 0 1rem;
+}
+
+.flip-card-back p {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 750px) {
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(0deg);
+    }
+}
+
+
+/* CSS par Tarjeta con Contador */
+
+
+/* Float four columns side by side */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.row {
+    margin: 0 -5px;
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 750px) {
+    .column {
+        width: 50%;
+        display: block;
+        margin: 2rem 25% 0 25%;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #F9CC34;
+    color: #ffffff;
+    border-radius: 2rem;
+}
+
+
+/* PAGINAS */
+
+
+/* Index */
+
+
+/* seccion más sobre nosotros */
+
+.Contenido-Nosotros {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0 10%;
+}
+
+@media screen and (max-width: 750px) {
+    .Contenido-Nosotros {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+    .Contenido-Nosotros div {
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* Seccion de servicios */
+
+.Contenido-Servicios {
+    margin: 0 10%;
+}
+
+.tab {
+    overflow: hidden;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab button {
+    width: 25%;
+    margin: 0;
+    background-color: #F9CC34;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1.4rem 1.6rem;
+    transition: 0.3s;
+    font-size: 1.7rem;
+    margin-right: 6.25%;
+    margin-left: 6.25%;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    width: 80%;
+    height: 40rem;
+    display: none;
+    border: .1rem solid #ccc;
+    border-top: none;
+    margin: 0;
+}
+
+.tabcontent img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Sección de trabajos*/
+
+.Contenido-Trabajos {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0 10%;
+}
+
+@media screen and (max-width: 750px) {
+    .Contenido-Trabajos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+    .Contenido-Trabajos a {
+        margin-bottom: 1rem;
+    }
+}
+
+
+/*Sección de clientes*/
+
+@media screen and (min-width: 750px) {
+    .Contenido-Clientes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* Sección de Contacto */
+
+.Contenido-Contacto {
+    width: 100%;
+    padding: 2rem 0;
+    margin: 0;
+    background-color: #F9CC34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Sección de Blog */
+
+.Contenido-Blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
+}
+
+@media screen and (max-width: 750px) {
+    .Contenido-Blog {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Contenido-Blog a {
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* NOSOTROS */
+
+
+/* contenido acerca de */
+
+.Contenido-Acerca {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #efb203;
+}
+
+.Contenido-Acerca img {
+    width: 40%;
+    height: auto;
+}
+
+.texto-acerca-de {
+    width: 60%;
+    padding: 30px;
+}
+
+.texto-acerca-de p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 750px) {
+    .oculto-responsivo {
+        display: none;
+    }
+    .texto-acerca-de p {
+        font-size: 15px;
+    }
+    .Contenido-Acerca h1 {
+        font-size: 3rem;
+    }
+}
+
+
+/* Equipo */
+
+.tarjeta-equipo {
+    margin: 0 5px;
+    box-shadow: none;
+    background-color: #efb203;
+    color: #ffffff;
+}
