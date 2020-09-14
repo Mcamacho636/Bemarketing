@@ -1,8 +1,8 @@
     <!--SECCIÓN DE MÁS SOBRE NOSOTROS-->
     <section class="Contenedor-Seccion">
-        <h2 class="Centrar-Texto Texto-Mayusculas">m&aacute;s sobre nosotros</h2>
+        <h2 class="Centrar-Texto Texto-Mayusculas">¿Por qu&eacute; Bemarketing?</h2>
         <div class="Contenido-Nosotros">
-            <div class="Tarjeta-Simple">
+            <div class="Tarjeta-Simple inline-photo show-on-scroll">
                 <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                 <div class="Contenido-Tarjeta-Simple">
                     <h3>Lorem</h3>
@@ -56,8 +56,8 @@
     <section class="Contenedor-Seccion">
         <h2 class="Centrar-Texto Texto-Mayusculas">trabajos</h2>
         <div class="Contenido-Trabajos">
-            <a href="">
-                <div class="flip-card">
+            <a href="" class="wow animate__animated animate__backInLeft" data-wow-delay="1.6s">
+                <div class="flip-card wow">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="Assets/Imagen1.jpeg" alt="Avatar" style="width:300px;height:300px; border-radius: 20px;">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="" class="wow animate__animated animate__backInLeft" data-wow-delay="1s">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -82,7 +82,7 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="" class="wow animate__animated animate__backInLeft" data-wow-delay="0.4s">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -185,11 +185,11 @@
     <!-- Seccion de Contacto -->
     <section class="Contenedor-Seccion Contenido-Contacto">
         <h2 class="Centrar-Texto Texto-Mayusculas">¿Te gusto lo que viste?</h2>
-        <a href="" class="Boton-Negro Texto-Mayusculas">contactanos</a>
+        <a href="" class="Boton-Negro Texto-Mayusculas wow animate__animated animate__shakeX animate__slower">contactanos</a>
     </section>
 
     <!-- Sección de blog -->
-    <section class="Contenedor-Seccion">
+    <section class="Contenedor-Seccion wow animate__animated animate__pulse">
         <h2 class="Centrar-Texto Texto-Mayusculas">Nuestro blog</h2>
         <div class="Contenido-Blog">
             <a class="Tarjeta-Blog" href="#">
