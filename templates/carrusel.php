@@ -15,6 +15,6 @@
 
   <div class="texto-carrusel animate__animated animate__lightSpeedInRight">
     <h2>BeMarketing</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, enim suscipit</p>
+    <p>¡Hola! Somos tu nueva agencia de #marketing favorita.</p>
   </div>
 </div>
