@@ -98,7 +98,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="Assets/Imagen3.jpg" alt="Avatar"
+                            <img src="Assets/Sabor-Veracruzano.jpg" alt="Avatar"
                                 style="width:300px;height:300px; border-radius: 20px;">
                         </div>
                         <div class="flip-card-back">
@@ -112,68 +112,42 @@
             </a>
         </div>
     </section>
-
     <!-- SECCION DE CLIENTES SATISFECHOS -->
     <section class="Contenedor-Seccion">
         <h2 class="Centrar-Texto Texto-Mayusculas">casos de &eacute;xito</h2>
         <div class="Carrusel-Infinito">
-            <div class="slider ">
-                <div class="slide-track ">
+            <div class="slider">
+                <div class="slide-track">
                     <div class="slide ">
                         <img src="Assets/Sabor-Veracruzano.jpg" style="width: 150px!important; height:150px !important;"
                             alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png " height="100 " width="250 "
-                            alt=" " />
+                        <img src="Assets/cinderella.png" style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png " height="100 " width="250 "
-                            alt=" " />
+                        <img src="Assets/dai-sushii.png" style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png " height="100 " width="250 "
-                            alt=" " />
+                        <img src="Assets/la-diana.png" style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png " height="100 " width="250 "
-                            alt=" " />
+                        <img src="Assets/la-sal.png" style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png " height="100 " width="250 "
-                            alt=" " />
+                        <img src="Assets/Sabor-Veracruzano.jpg" style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png " height="100 " width="250 "
-                            alt=" " />
+                        <img src="Assets/cinderella.png" style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Sabor-Veracruzano.jpg" style="width: 150px!important; height:150px !important;"
-                            alt=" " />
+                        <img src="Assets/dai-sushii.png" style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png " height="100 " width="250 "
-                            alt=" " />
+                        <img src="Assets/la-diana.png" style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png " height="100 " width="250 "
-                            alt=" " />
-                    </div>
-                    <div class="slide ">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png " height="100 " width="250 "
-                            alt=" " />
-                    </div>
-                    <div class="slide ">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png " height="100 " width="250 "
-                            alt=" " />
-                    </div>
-                    <div class="slide ">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png " height="100 " width="250 "
-                            alt=" " />
-                    </div>
-                    <div class="slide ">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png " height="100 " width="250 "
-                            alt=" " />
+                        <img src="Assets/la-sal.png" style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                 </div>
             </div>
