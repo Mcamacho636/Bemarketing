@@ -1,7 +1,7 @@
     <!--SECCIÓN DE MÁS SOBRE NOSOTROS-->
     <section class="Contenedor-Seccion">
         <h2 class="Centrar-Texto Texto-Mayusculas">¿Por qu&eacute; Bemarketing?</h2>
-        <div class="Contenido-Nosotros">
+        <div class="Contenido-Nosotros"> 
             <div class="Tarjeta-Simple">
                 <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                 <div class="Contenido-Tarjeta-Simple">

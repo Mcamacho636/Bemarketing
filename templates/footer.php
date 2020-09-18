@@ -10,7 +10,7 @@
         <nav class="footer-content">
             <a href="nosotros.php">Nosotros</a>
             <a href="portafolio.php">Portafolio</a>
-            <a href="#">Contacto</a>
+            <a href="contacto.php">Contacto</a>
             <a href="#"> Blog</a>
         </nav>
 </footer>

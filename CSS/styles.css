@@ -180,9 +180,6 @@ h3 {
         display: block;
         text-align: left;
     }
-    .nav-footer {
-        display: none;
-    }
 }
 
 
@@ -237,6 +234,12 @@ h3 {
     padding-left: 5px;
 }
 
+@media screen and (max-width: 750px) {
+    .nav-footer {
+        display: none;
+    }
+}
+
 
 /* BOTON IR ARRIBA */
 
@@ -269,7 +272,7 @@ a.scroll-top i {
 
 .Contenedor-Seccion {
     max-width: 100%;
-    margin: 11rem 0rem;
+    margin: 6rem 0rem;
 }
 
 
@@ -717,9 +720,6 @@ a.scroll-top i {
     width: 100%;
 }
 
-
-/* Bottom right text */
-
 .text-block {
     position: absolute;
     width: 60%;
@@ -747,30 +747,9 @@ a.scroll-top i {
     margin-right: 10%;
 }
 
-
-/* Style the buttons that are used to open the tab content */
-
-.tab-trabajos button {
-    background-color: #F9CC34;
-    border-radius: 2rem;
-    width: 15rem;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-}
-
-
-/* Change background color of buttons on hover */
-
 .tab-trabajos button:hover {
     background-color: #ddd;
 }
-
-
-/* Style the tab content */
 
 .tabcontent-trabajos {
     display: none;
@@ -786,10 +765,146 @@ a.scroll-top i {
 
 .contenido-todos {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
+.fila-trabajos {
+    display: flex;
+    justify-content: space-between;
+}
+
 .contenido-todos div {
     margin-bottom: 20px;
+}
+
+
+/* Pagina de trabajo */
+
+.Contenido-Trabajo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.assets_trabajo {
+    overflow: auto;
+    width: 50%;
+    height: 600px;
+    margin: 0 2%;
+}
+
+.assets_trabajo img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.info_trabajo {
+    width: 40%;
+}
+
+.info_trabajo p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.boton-control {
+    background-color: #F9CC34;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: 40px;
+    margin: 20px 40%;
+}
+
+.controles-trabajos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* PAGINA CONTACTO */
+
+.tab-contacto {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 15%;
+    height: 100%;
+}
+
+.tab-contacto button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    font-size: 15px;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tab-contacto button:hover {
+    background-color: #ddd;
+}
+
+.tab-contacto button.active {
+    background-color: #ccc;
+}
+
+.tabcontent-contacto {
+    float: left;
+    border: 1px solid #ccc;
+    width: 80%;
+    height: 100%;
+    margin-left: 2%;
+    padding: 0 5px;
+}
+
+.Campo-Formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.Campo-Formulario input {
+    padding: 8px 5px;
+    border: 1px solid #000000;
+}
+
+.Campo-Formulario input:focus {
+    padding: 8px 5px;
+    border: 1px solid #F9CC34;
+}
+
+.Campo-Formulario select {
+    padding: 8px 5px;
+    border: 1px solid #000000;
+    background-color: #fff;
+}
+
+.Campo-Formulario textarea:focus {
+    border: 1px solid #F9CC34;
+}
+
+.Campo-Formulario textarea {
+    resize: none;
+    border: 1px solid #000000;
+}
+
+.Contenido-Contacto-Form {
+    margin: 20px 10%;
+    margin-bottom: 60px;
+    height: 900px;
+}
+
+.contacto-proyecto fieldset {
+    margin-bottom: 25px;
 }
