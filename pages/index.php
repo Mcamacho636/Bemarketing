@@ -119,47 +119,60 @@
             <div class="slider">
                 <div class="slide-track">
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/Sabor-Veracruzano.png" style="width: 150px!important; height:150px !important;"
-                            alt=" " />
+                        <img src="Assets/Logos-Empresas/Sabor-Veracruzano.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/cinderella.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/cinderella.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/dai-sushii.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/dai-sushii.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/la-diana.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/la-diana.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/la-sal.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/la-sal.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/Andy-Blogs.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/Andy-Blogs.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/Pano.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/Pano.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/Sabor-Veracruzano.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/Sabor-Veracruzano.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/cinderella.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/cinderella.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/dai-sushii.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/dai-sushii.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/la-diana.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/la-diana.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/la-sal.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/la-sal.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/Andy-Blogs.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/Andy-Blogs.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                     <div class="slide ">
-                        <img src="Assets/Logos-Empresas/Pano.png" style="width: 150px!important; height:150px !important;" alt=" " />
+                        <img src="Assets/Logos-Empresas/Pano.png"
+                            style="width: 150px!important; height:150px !important;" alt=" " />
                     </div>
                 </div>
             </div>
