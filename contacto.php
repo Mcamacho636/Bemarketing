@@ -16,13 +16,12 @@
     <script src="Scripts/jquery-3.5.1.js"></script>
     <script src="Scripts/wow.js"></script>
     <script>
-    new WOW().init();
+        new WOW().init();
     </script>
     <script src="Scripts/nav.js"></script>
 </head>
 
 <body onload="showSlides()">
-
     <!--NavBar-->
     <?php require("templates/ir-arriba.php");?>
     <?php require("templates/nav.php");?>
