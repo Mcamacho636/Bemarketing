@@ -2,7 +2,7 @@
     <section class="Contenedor-Seccion">
         <h2 class="Centrar-Texto Texto-Mayusculas">¿Por qu&eacute; Bemarketing?</h2>
         <div class="Contenido-Nosotros">
-            <div class="Tarjeta-Simple">
+            <div class="Tarjeta-Simple zoom">
                 <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                 <div class="Contenido-Tarjeta-Simple">
                     <h3>Lorem</h3>
@@ -11,7 +11,7 @@
                         incidunt, in sint ea.</p>
                 </div>
             </div>
-            <div class="Tarjeta-Simple">
+            <div class="Tarjeta-Simple zoom">
                 <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                 <div class="Contenido-Tarjeta-Simple">
                     <h3>Lorem</h3>
@@ -20,7 +20,7 @@
                         incidunt, in sint ea.</p>
                 </div>
             </div>
-            <div class="Tarjeta-Simple">
+            <div class="Tarjeta-Simple zoom">
                 <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                 <div class="Contenido-Tarjeta-Simple">
                     <h3>Lorem</h3>
@@ -82,7 +82,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="Assets/Imagen2.jpeg" alt="Avatar"
+                            <img src="Assets/Proyectos/laSal/Imagen6.jpg" alt="Avatar"
                                 style="width:300px;height:300px; border-radius: 20px;">
                         </div>
                         <div class="flip-card-back">
@@ -178,7 +178,7 @@
             </div>
         </div>
         <div class="row  Contenido-Clientes">
-            <div class="column">
+            <div class="column zoom">
                 <div class="card">
                     <svg width="7em" height="7em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg">
@@ -190,7 +190,7 @@
                 </div>
             </div>
 
-            <div class="column">
+            <div class="column zoom">
                 <div class="card">
                     <svg width="7em" height="7dem" viewBox="0 0 16 16" class="bi bi-emoji-smile" fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg">
@@ -206,7 +206,7 @@
                 </div>
             </div>
 
-            <div class="column">
+            <div class="column zoom">
                 <div class="card">
                     <svg width="7em" height="7em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg">
@@ -231,7 +231,7 @@
     <section class="Contenedor-Seccion">
         <h2 class="Centrar-Texto Texto-Mayusculas">Nuestro blog</h2>
         <div class="Contenido-Blog">
-            <a class="Tarjeta-Blog wow animate__animated animate__pulse" href="#">
+            <a class="Tarjeta-Blog wow animate__animated animate__pulse zoom" href="#">
                 <img src="Assets/Imagen3.jpg" alt="">
                 <div class="Contenido-Tarjeta-Blog">
                     <h3>Lorem</h3>
@@ -241,7 +241,7 @@
                         Quas consectetur eaque ullam.</p>
                 </div>
             </a>
-            <a class="Tarjeta-Blog wow animate__animated animate__pulse" href="#">
+            <a class="Tarjeta-Blog wow animate__animated animate__pulse zoom" href="#">
                 <img src="Assets/Imagen3.jpg" alt="">
                 <div class="Contenido-Tarjeta-Blog">
                     <h3>Lorem</h3>

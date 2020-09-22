@@ -1,0 +1,38 @@
+Base de Datos BeMarketing
+
+-Tabla Blog
+	-Id_Entrada
+	-Titulo_Entrada
+	-Categoría
+	-Fecha
+	-Creador
+	-Preview
+	-Texto Completo
+
+-Tabla Proyecto
+	-Id_Proyecto
+	-Nombre_Proyecto
+	-Preview
+
+-Tabla Captions
+	-Id_Caption
+	-Id_Proyecto
+	-Caption
+	-Index_Imagen
+
+-Contacto_General
+	-Id_Mensaje
+	-Nombre
+	-Correo
+	-Mensaje
+	-Fecha
+
+-Contacto_Proyecto
+	-Id_Mensaje
+	-Nombre
+	-Empresa
+	-Telefono
+	-Correo
+	-Giro de la empresa
+	-Servicios
+	-Detalles

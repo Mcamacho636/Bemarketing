@@ -2,569 +2,75 @@
     <img src="Assets/Imagen4.jpg" alt="">
     <div class="text-block">
         <h1>NUESTRO PORTAFOLIO</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia placeat rerum consectetur fugit, tempore
-            illum nobis facilis reiciendis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia placeat rerum consectetur fugit, tempore illum nobis facilis reiciendis!</p>
     </div>
 </section>
-<main class="Contenedor-Seccion" style="width: 90%; height: auto;">
-    <!-- Tab links -->
-    <div class="tab-trabajos">
-        <button class="tablinks-trabajos Boton-Amarillo" onclick="cambiarTab(event, 'Todos')"
-            id="defaultOpen">Todos</button>
-        <button class="tablinks-trabajos Boton-Amarillo" onclick="cambiarTab(event, 'Redes_Sociales')">Redes</button>
-        <button class="tablinks-trabajos Boton-Amarillo" onclick="cambiarTab(event, 'Fotografia')">Fotografia</button>
-    </div>
-
-    <!-- Tab content -->
-    <div id="Todos" class="tabcontent-trabajos">
-        <h2 class="Centrar-Texto Texto-Mayusculas">Todos nuestros trabajos</h2>
-        <div class="contenido-todos">
-            <div class="animate__animated animate__slideInLeft animate__slow fila-trabajos">
-                <a href="proyecto.php">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+    <main class="Contenedor-Seccion contenido-portafolio-proyectos" style="width: 100%; height: auto;">
+        <a href="proyecto.php">
+            <div class="tarjeta-proyecto zoom">
+                <div class="tarjeta-proyecto-texto">
+                    <h3>laSal</h3>
+                </div>
+                <div class="tarjeta-proyecto-imagen">
+                    <img src="Assets/Proyectos/laSal/Imagen0.jpg" alt="" style="width: 100%; height: 100%;">
+                </div>
+        </div>
+        </a>
+        <div class="tarjeta-proyecto zoom">
+            <div class="tarjeta-proyecto-texto">
+                <h3>laSal</h3>
             </div>
-            <div class="animate__animated animate__slideInRight animate__slow fila-trabajos">
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="animate__animated animate__slideInLeft animate__slow fila-trabajos">
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+            <div class="tarjeta-proyecto-imagen">
+                <img src="Assets/Proyectos/laSal/Imagen0.jpg" alt="" style="width: 100%; height: 100%;">
             </div>
         </div>
-    </div>
-    <div id="Redes_Sociales" class="tabcontent-trabajos">
-        <h2 class="Centrar-Texto Texto-Mayusculas">Todos nuestros trabajos</h2>
-        <div class="contenido-todos">
-            <div class="animate__animated animate__slideInRight animate__slow fila-trabajos">
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+        <div class="tarjeta-proyecto zoom">
+            <div class="tarjeta-proyecto-texto">
+                <h3>Andylegal</h3>
             </div>
-            <div class="animate__animated animate__slideInLeft animate__slow fila-trabajos">
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="animate__animated animate__slideInRight animate__slow fila-trabajos">
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+            <div class="tarjeta-proyecto-imagen">
+                <img src="Assets/Proyectos/Andylegal/Imagen0.jpg" alt="" style="width: 100%; height: 100%;">
             </div>
         </div>
+    <div class="tarjeta-proyecto zoom">
+        <div class="tarjeta-proyecto-texto">
+            <h3>laSal</h3>
+        </div>
+        <div class="tarjeta-proyecto-imagen">
+            <img src="Assets/Proyectos/laSal/Imagen0.jpg" alt="" style="width: 100%; height: 100%;">
+        </div>
     </div>
-    <div id="Fotografia" class="tabcontent-trabajos">
-        <h2 class="Centrar-Texto Texto-Mayusculas">Todos nuestros trabajos</h2>
-        <div class="contenido-todos">
-            <div class="animate__animated animate__slideInLeft animate__slow fila-trabajos">
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="animate__animated animate__slideInRight animate__slow fila-trabajos">
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="animate__animated animate__slideInLeft animate__slow fila-trabajos">
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="Assets/Imagen2.jpeg" alt="Avatar"
-                                    style="width:300px;height:300px; border-radius: 20px;">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde, ducimus,
-                                    expedita id impedit incidunt mollitia magnam deleniti natus velit aperiam fuga.
-                                    Asperiores, ab voluptate dolores accusantium dolorem porro
-                                    doloribus.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+    <div class="tarjeta-proyecto zoom">
+        <div class="tarjeta-proyecto-texto">
+            <h3>laSal</h3>
+        </div>
+        <div class="tarjeta-proyecto-imagen">
+            <img src="Assets/Proyectos/laSal/Imagen0.jpg" alt="" style="width: 100%; height: 100%;">
+        </div>
+    </div>
+    <div class="tarjeta-proyecto zoom">
+        <div class="tarjeta-proyecto-texto">
+            <h3>laSal</h3>
+        </div>
+        <div class="tarjeta-proyecto-imagen">
+            <img src="Assets/Proyectos/laSal/Imagen0.jpg" alt="" style="width: 100%; height: 100%;">
+        </div>
+    </div>
+    <div class="tarjeta-proyecto zoom">
+        <div class="tarjeta-proyecto-texto">
+            <h3>laSal</h3>
+        </div>
+        <div class="tarjeta-proyecto-imagen">
+            <img src="Assets/Proyectos/laSal/Imagen0.jpg" alt="" style="width: 100%; height: 100%;">
         </div>
     </div>
 </main>
 <!-- Place <div> tag where you want the feed to appear -->
-<div id="curator-feed-default-feed-layout" style="max-width: 90%; margin-left: 5%">
-    <a href="https://curator.io" target="_blank" class="crt-logo crt-tag"></a>
+<div id="curator-feed-default-feed-layout" style="max-width: 70%; margin-left: 15%">
+    <a href="https://curator.io" target="_blank" class="crt-logo crt-tag" style="margin-left:30px; margin-right:30px;"></a>
 </div>
 
 <script type="text/javascript">
-document.getElementById("defaultOpen").click();
-
-function cambiarTab(evt, cityName) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
-
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent-trabajos");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks-trabajos");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-
 (function() {
     var i, e, d = document,
         s = "script";

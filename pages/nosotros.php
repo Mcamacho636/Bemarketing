@@ -17,7 +17,7 @@
 </main>
 <section class="Contenedor-Seccion">
     <div class="Contenido-Nosotros">
-        <div class="Tarjeta-Simple">
+        <div class="Tarjeta-Simple zoom">
             <img src="Assets/Imagen1.jpeg " class="" alt="... ">
             <div class="Contenido-Tarjeta-Simple">
                 <h3>Lorem</h3>
@@ -26,7 +26,7 @@
                     ea.</p>
             </div>
         </div>
-        <div class="Tarjeta-Simple">
+        <div class="Tarjeta-Simple zoom">
             <img src="Assets/Imagen1.jpeg " class="" alt="... ">
             <div class="Contenido-Tarjeta-Simple">
                 <h3>Lorem</h3>
@@ -35,7 +35,7 @@
                     ea.</p>
             </div>
         </div>
-        <div class="Tarjeta-Simple">
+        <div class="Tarjeta-Simple zoom">
             <img src="Assets/Imagen1.jpeg " class="" alt="... ">
             <div class="Contenido-Tarjeta-Simple">
                 <h3>Lorem</h3>
@@ -51,73 +51,73 @@
     <div class="Carrusel-Infinito" style="height: auto;">
         <div class="slider" style="height: auto;">
             <div class="slide-track" style="height: auto;">
-                <div class="Tarjeta-Simple tarjeta-equipo">
+                <div class="Tarjeta-Simple tarjeta-equipo zoom">
                     <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                     <div class="Contenido-Tarjeta-Simple">
                         <h3>Lorem</h3>
                     </div>
                 </div>
-                <div class="Tarjeta-Simple tarjeta-equipo">
+                <div class="Tarjeta-Simple tarjeta-equipo zoom">
                     <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                     <div class="Contenido-Tarjeta-Simple">
                         <h3>Lorem</h3>
                     </div>
                 </div>
-                <div class="Tarjeta-Simple tarjeta-equipo">
+                <div class="Tarjeta-Simple tarjeta-equipo zoom">
                     <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                     <div class="Contenido-Tarjeta-Simple">
                         <h3>Lorem</h3>
                     </div>
                 </div>
-                <div class="Tarjeta-Simple tarjeta-equipo">
+                <div class="Tarjeta-Simple tarjeta-equipo zoom">
                     <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                     <div class="Contenido-Tarjeta-Simple">
                         <h3>Lorem</h3>
                     </div>
                 </div>
-                <div class="Tarjeta-Simple tarjeta-equipo">
+                <div class="Tarjeta-Simple tarjeta-equipo zoom">
                     <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                     <div class="Contenido-Tarjeta-Simple">
                         <h3>Lorem</h3>
                     </div>
                 </div>
-                <div class="Tarjeta-Simple tarjeta-equipo">
+                <div class="Tarjeta-Simple tarjeta-equipo zoom">
                     <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                     <div class="Contenido-Tarjeta-Simple">
                         <h3>Lorem</h3>
                     </div>
                 </div>
-                <div class="Tarjeta-Simple tarjeta-equipo">
+                <div class="Tarjeta-Simple tarjeta-equipo zoom">
                     <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                     <div class="Contenido-Tarjeta-Simple">
                         <h3>Lorem</h3>
                     </div>
                 </div>
-                <div class="Tarjeta-Simple tarjeta-equipo">
+                <div class="Tarjeta-Simple tarjeta-equipo zoom">
                     <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                     <div class="Contenido-Tarjeta-Simple">
                         <h3>Lorem</h3>
                     </div>
                 </div>
-                <div class="Tarjeta-Simple tarjeta-equipo">
+                <div class="Tarjeta-Simple tarjeta-equipo zoom">
                     <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                     <div class="Contenido-Tarjeta-Simple">
                         <h3>Lorem</h3>
                     </div>
                 </div>
-                <div class="Tarjeta-Simple tarjeta-equipo">
+                <div class="Tarjeta-Simple tarjeta-equipo zoom">
                     <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                     <div class="Contenido-Tarjeta-Simple">
                         <h3>Lorem</h3>
                     </div>
                 </div>
-                <div class="Tarjeta-Simple tarjeta-equipo">
+                <div class="Tarjeta-Simple tarjeta-equipo zoom">
                     <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                     <div class="Contenido-Tarjeta-Simple">
                         <h3>Lorem</h3>
                     </div>
                 </div>
-                <div class="Tarjeta-Simple tarjeta-equipo">
+                <div class="Tarjeta-Simple tarjeta-equipo zoom">
                     <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                     <div class="Contenido-Tarjeta-Simple">
                         <h3>Lorem</h3>

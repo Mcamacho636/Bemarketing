@@ -67,6 +67,19 @@ h3 {
     border-radius: 1rem;
 }
 
+.zoom {
+    transition: all .2s ease-in-out;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    /* Safari 3-8 */
+    transform: scale(1.05);
+}
+
 
 /* NAV */
 
@@ -167,15 +180,15 @@ h3 {
 }
 
 @media screen and (max-width: 750px) {
-    .topnav.responsive {
+    .responsive {
         position: relative;
     }
-    .topnav.responsive .icon {
+    .responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
-    .topnav.responsive a {
+    .responsive a {
         float: none;
         display: block;
         text-align: left;
@@ -549,6 +562,35 @@ a.scroll-top i {
 }
 
 
+/*CSS para tarjetas de proyectos*/
+
+.tarjeta-proyecto {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+.tarjeta-proyecto-imagen {
+    width: 90%;
+    height: 100%;
+}
+
+.tarjeta-proyecto-texto {
+    width: 10%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    justify-content: center;
+}
+
+.tarjeta-proyecto-texto h3 {
+    transform: rotate(-90deg);
+    margin-top: 150px;
+    color: white;
+}
+
+
 /* PAGINAS */
 
 
@@ -748,8 +790,7 @@ a.scroll-top i {
 /* Equipo */
 
 .tarjeta-equipo {
-    margin: 0 5px;
-    box-shadow: none;
+    margin: 0 10px;
     background-color: #efb203;
     color: #ffffff;
 }
@@ -784,46 +825,10 @@ a.scroll-top i {
     font-size: 2rem;
 }
 
-.tab-trabajos {
-    overflow: hidden;
-    width: 90%;
+.contenido-portafolio-proyectos {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.tab-trabajos button:hover {
-    background-color: #ddd;
-}
-
-.tabcontent-trabajos {
-    display: none;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 6px 12px;
-    border-top: 30px;
-}
-
-.contenido-todos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.fila-trabajos {
-    display: flex;
-    justify-content: space-between;
-}
-
-.contenido-todos div {
-    margin-bottom: 20px;
+    justify-content: center;
 }
 
 

@@ -7,7 +7,7 @@
     </div>
 </section>
 <main class="Contenedor-Seccion Blog-Blog">
-    <a href="">
+    <a href="" class="zoom">
         <div class="Tarjeta-Blog-Ext">
             <img src="Assets/Imagen3.jpg" alt="">
             <p class="Blog-Categoria">Categoria</p>
@@ -21,7 +21,7 @@
             </div>
         </div>
     </a>
-    <a href="">
+    <a href="" class="zoom">
         <div class="Tarjeta-Blog-Ext">
             <img src="Assets/Imagen3.jpg" alt="">
             <p class="Blog-Categoria">Categoria</p>
@@ -35,7 +35,7 @@
             </div>
         </div>
         </a>
-        <a href="">
+        <a href="" class="zoom">
             <div class="Tarjeta-Blog-Ext">
                 <img src="Assets/Imagen3.jpg" alt="">
                 <p class="Blog-Categoria">Categoria</p>
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </a>
-        <a href="">
+        <a href="" class="zoom">
             <div class="Tarjeta-Blog-Ext">
                 <img src="Assets/Imagen3.jpg" alt="">
                 <p class="Blog-Categoria">Categoria</p>
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </a>
-        <a href="">
+        <a href="" class="zoom">
             <div class="Tarjeta-Blog-Ext">
                 <img src="Assets/Imagen3.jpg" alt="">
                 <p class="Blog-Categoria">Categoria</p>
@@ -83,7 +83,7 @@
                 </div>
             </div>
         </a>
-        <a href="">
+        <a href="" class="zoom">
             <div class="Tarjeta-Blog-Ext">
                 <img src="Assets/Imagen3.jpg" alt="">
                 <p class="Blog-Categoria">Categoria</p>
@@ -98,7 +98,7 @@
                         labore.</p>
                 </div>
             </div>
-        </a><a href="">
+        </a><a href="" class="zoom">
             <div class="Tarjeta-Blog-Ext">
                 <img src="Assets/Imagen3.jpg" alt="">
                 <p class="Blog-Categoria">Categoria</p>
@@ -114,7 +114,7 @@
                 </div>
             </div>
         </a>
-        <a href="">
+        <a href="" class="zoom">
             <div class="Tarjeta-Blog-Ext">
                 <img src="Assets/Imagen3.jpg" alt="">
                 <p class="Blog-Categoria">Categoria</p>

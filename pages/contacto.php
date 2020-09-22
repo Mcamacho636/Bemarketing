@@ -40,7 +40,7 @@
                     <label for="nombre ">Nombre</label>
                     <input type="text " id="nombre ">
                 </div>
-                <div class="Campo-Formulario ">
+                <div class="Campo-Formulario "> 
                     <label for="empresa ">Empresa</label>
                     <input type="mail " id="empresa ">
                 </div>
