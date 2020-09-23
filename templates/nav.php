@@ -12,7 +12,7 @@
             <a href="portafolio.php">Portafolio</a>
             <a href="contacto.php">Contacto</a>
             <a href="blog.php">Blog</a>
-            <a href="javascript:void(0);" class="icon" onclick="desplegarMenu();">
+            <a href="javascript:void(0);" class="icon" onclick="desplegarMenu()">
                 <svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd"

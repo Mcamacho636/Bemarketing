@@ -180,15 +180,15 @@ h3 {
 }
 
 @media screen and (max-width: 750px) {
-    .responsive {
+    .topnav.responsive {
         position: relative;
     }
-    .responsive .icon {
+    .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
-    .responsive a {
+    .topnav.responsive a {
         float: none;
         display: block;
         text-align: left;

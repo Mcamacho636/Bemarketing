@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="CSS/normalize.css">
-    <link rel="stylesheet" href="CSS/video.css">
+    <link rel="stylesheet" href="CSS/carrusel.css">
     <link rel="stylesheet" href="CSS/empresas.css">
     <link rel="stylesheet" href="CSS/styles.css">
 
@@ -25,12 +25,12 @@
 
 </head>
 
-<body>
+<body onload="showSlides()">
 
     <!--NavBar-->
     <?php require("templates/ir-arriba.php");?>
     <?php require("templates/nav.php");?>
-    <?php require("templates/video.php");?>
+    <?php require("templates/carrusel.php");?>
     <?php require("pages/index.php");?>
     <?php require("templates/footer.php");?>
 </body>
