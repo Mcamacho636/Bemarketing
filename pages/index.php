@@ -16,7 +16,7 @@
                 <div class="Contenido-Tarjeta-Simple">
                     <h3>Lorem</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ut dignissimos ullam magni
-                        ipsam odit dicta beatae similique quos obcaecati officia, id nesciunt vel saepe ducimus,
+                        ipsam odit dicta beatae si  milique quos obcaecati officia, id nesciunt vel saepe ducimus,
                         incidunt, in sint ea.</p>
                 </div>
             </div>
@@ -62,11 +62,11 @@
     <section class="Contenedor-Seccion">
         <h2 class="Centrar-Texto Texto-Mayusculas">portafolio</h2>
         <div class="Contenido-Trabajos">
-            <a href="" class="wow animate__animated animate__backInLeft" data-wow-delay="1.4s">
+            <a href="proyecto.php?proyecto=Andylegal" class="wow animate__animated animate__backInLeft" data-wow-delay="1.4s">
                 <div class="flip-card wow">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="Assets/Imagen1.jpeg" alt="Avatar"
+                            <img src="Assets/Proyectos/Andylegal/Imagen1.jpg" alt="Avatar"
                                 style="width:300px;height:300px; border-radius: 20px;">
                         </div>
                         <div class="flip-card-back">
@@ -78,11 +78,11 @@
                     </div>
                 </div>
             </a>
-            <a href="" class="wow animate__animated animate__backInLeft" data-wow-delay=".8s">
+            <a href="proyecto.php?proyecto=laSal" class="wow animate__animated animate__backInLeft" data-wow-delay=".8s">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="Assets/Proyectos/laSal/Imagen6.jpg" alt="Avatar"
+                            <img src="Assets/Proyectos/laSal/logo_laSal.jpg" alt="Avatar"
                                 style="width:300px;height:300px; border-radius: 20px;">
                         </div>
                         <div class="flip-card-back">

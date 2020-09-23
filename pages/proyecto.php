@@ -1,5 +1,5 @@
 <?php   
-    $proyecto ="laSal";
+    $proyecto = $_GET["proyecto"];
     $total_imagenes = count(glob('Assets/Proyectos/'.$proyecto.'/{*.jpg,*.gif,*.png}',GLOB_BRACE));
     $direccion = "Assets/Proyectos/".$proyecto."/";
     $aux = 0;

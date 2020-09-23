@@ -15,10 +15,10 @@
 <script> 
     var myVideo = document.getElementById("Video_Inicio"); 
 
-function play() { 
-  if (myVideo.paused) 
-    myVideo.play(); 
-  else 
-    myVideo.pause(); 
-} 
+    function play() { 
+        if (myVideo.paused) 
+            myVideo.play(); 
+        else 
+            myVideo.pause(); 
+    } 
 </script>   
