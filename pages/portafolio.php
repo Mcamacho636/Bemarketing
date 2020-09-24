@@ -6,7 +6,7 @@
     </div>
 </section>
     <main class="Contenedor-Seccion contenido-portafolio-proyectos" style="width: 100%; height: auto;">
-        <a href="proyecto.php">
+        <a href="proyecto.php?proyecto=laSal">
             <div class="tarjeta-proyecto zoom">
                 <div class="tarjeta-proyecto-texto">
                     <h3>laSal</h3>
@@ -14,16 +14,18 @@
                 <div class="tarjeta-proyecto-imagen">
                     <img src="Assets/Proyectos/laSal/Imagen0.jpg" alt="" style="width: 100%; height: 100%;">
                 </div>
-        </div>
+            </div>
         </a>
-        <div class="tarjeta-proyecto zoom">
-            <div class="tarjeta-proyecto-texto">
-                <h3>laSal</h3>
+        <a href="proyecto.php?proyecto=Andylegal">
+            <div class="tarjeta-proyecto zoom">
+                <div class="tarjeta-proyecto-texto">
+                    <h3>Andylegal</h3>
+                </div>
+                <div class="tarjeta-proyecto-imagen">
+                    <img src="Assets/Proyectos/Andylegal/Imagen0.jpg" alt="" style="width: 100%; height: 100%;">
+                </div>
             </div>
-            <div class="tarjeta-proyecto-imagen">
-                <img src="Assets/Proyectos/laSal/Imagen0.jpg" alt="" style="width: 100%; height: 100%;">
-            </div>
-        </div>
+        </a>
         <div class="tarjeta-proyecto zoom">
             <div class="tarjeta-proyecto-texto">
                 <h3>Andylegal</h3>
