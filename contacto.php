@@ -7,6 +7,7 @@
 
     <!-- LINKS A HOJAS DE ESTILO -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+    <link rel="shortcut icon" href="Assets/incono_beam.png"/>
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/styles.css">
 
