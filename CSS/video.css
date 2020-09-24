@@ -8,7 +8,7 @@
 
 #hero video {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: absolute;
     top: 50;
     left: 0;
@@ -17,23 +17,10 @@
 }
 
 #hero .caption {
-    position: relative;
+    position: absolute;
     text-align: center;
     color: #ffffff;
-}
-
-#hero .caption h1 {
-    text-transform: uppercase;
-    font-size: 2em;
-    font-family: 'Oswald', sans-serif;
-    margin-bottom: 0.5rem;
-}
-
-#hero .caption h2 {
-    font-weight: 400;
-    font-size: 1.5rem;
-    margin: 0;
-    font-family: 'PT Sans', sans-serif;
+    bottom: 10px;
 }
 
 #hero img {
@@ -45,31 +32,4 @@
 
 #hero .caption img:hover {
     cursor: pointer;
-}
-
-@media screen and (min-width:768px) {
-    #hero .caption h1 {
-        font-size: 2.5rem;
-    }
-    #hero .caption h2 {
-        font-size: 1.75rem;
-    }
-}
-
-@media screen and (min-width:992px) {
-    #hero .caption h1 {
-        font-size: 3rem;
-    }
-    #hero .caption h2 {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (min-width:1200px) {
-    #hero .caption h1 {
-        font-size: 4rem;
-    }
-    #hero .caption h2 {
-        font-size: 2.5rem;
-    }
 }
