@@ -21,11 +21,12 @@
         new WOW().init();
     </script>
     <script src="Scripts/nav.js"></script>
+    <script src="Scripts/video.js"></script>    
     <script src="Scripts/servicios.js"></script>
 
 </head>
 
-<body>
+<body onload="cambioSrc();">
 
     <!--NavBar-->
     <?php require("templates/ir-arriba.php");?>
