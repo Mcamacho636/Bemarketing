@@ -7,7 +7,6 @@
 
     <!-- LINKS A HOJAS DE ESTILO -->
     <link rel="shortcut icon" href="Assets/incono_beam.png"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/video.css">

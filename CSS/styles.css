@@ -4,8 +4,15 @@ html {
     /*reset para REEMS - 62.5% = 10 px */
 }
 
+@font-face {
+    font-family: "Nexa Black";
+    src: url('Assets/Nexa Black.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Nexa Black";
 }
 
 
@@ -117,7 +124,7 @@ h3 {
 }
 
 .navbar a:hover {
-    color: #F9CC34;
+    color: #f9cb34;
 }
 
 .navbar a.active {

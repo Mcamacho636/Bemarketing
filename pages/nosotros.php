@@ -13,7 +13,7 @@
             placerat. Quisque vel felis a ipsum pulvinar commodo non vitae est. Donec ut erat eget ligula volutpat
             dapibus.</p>
     </div>
-    <img src="Assets/Imagen4.jpg" alt="">
+    <img src="Assets/Imagen4.jpg" alt="" style="border-radius: 50%;">
 </main>
 <section class="Contenedor-Seccion">
     <div class="Contenido-Nosotros">

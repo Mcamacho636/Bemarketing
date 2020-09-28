@@ -211,7 +211,7 @@
     <section class="Contenedor-Seccion Contenido-Contacto">
         <h2 class="Centrar-Texto Texto-Mayusculas">¿Te gusto lo que viste?</h2>
         <a href="contacto.php"
-            class="Boton-Negro Texto-Mayusculas wow animate__animated animate__shakeY">contactanos</a>
+            class="Boton-Negro Texto-Mayusculas wow animate__animated animate__shakeY zoom">contactanos</a>
     </section>
 
     <!-- Sección de blog -->
