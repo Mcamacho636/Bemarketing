@@ -109,6 +109,7 @@
             </a>
         </div>
     </section>
+    
     <!-- SECCION DE CLIENTES SATISFECHOS -->
     <section class="Contenedor-Seccion">
         <h2 class="Centrar-Texto Texto-Mayusculas">casos de &eacute;xito</h2>
@@ -217,34 +218,7 @@
     <!-- Sección de blog -->
     <section class="Contenedor-Seccion">
         <h2 class="Centrar-Texto Texto-Mayusculas">Nuestro blog</h2>
-        <div class="Contenido-Blog">
-            <a href="" class="zoom">
-                <div class="Tarjeta-Blog-Ext">
-                    <img src="Assets/Imagen3.jpg" alt="">
-                    <p class="Blog-Categoria">Categoria</p>
-                    <div class="Contenido-Tarjeta-Blog-Ext">
-                        <h2 class="Centrar-Texto">Titulo Blog</h2>
-                        <h4 class="Centrar-Texto">--/--/---- by Admin</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fuga perferendis fugiat ea hic
-                             alias
-                            quibusdam eum aperiam magnam architecto consequatur ratione placeat ad tenetur ipsum aut, nam neque
-                            labore.</p>
-                    </div>
-                </div>
-            </a>
-            <a href="" class="zoom">
-                <div class="Tarjeta-Blog-Ext">
-                    <img src="Assets/Imagen3.jpg" alt="">
-                    <p class="Blog-Categoria">Categoria</p>
-                    <div class="Contenido-Tarjeta-Blog-Ext">
-                        <h2 class="Centrar-Texto">Titulo Blog</h2>
-                        <h4 class="Centrar-Texto">--/--/---- by Admin</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fuga perferendis fugiat ea hic
-                             alias
-                            quibusdam eum aperiam magnam architecto consequatur ratione placeat ad tenetur ipsum aut, nam neque
-                            labore.</p>
-                    </div>
-                </div>
-            </a>
+        <div class="Contenido-Blog" id="Contenido-Blog">
+            
         </div>
-    </section>
+    </section> 
