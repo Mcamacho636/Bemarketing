@@ -3,7 +3,7 @@
         <h2 class="Centrar-Texto Texto-Mayusculas">¿Por qu&eacute; Bemarketing?</h2>
         <div class="Contenido-Nosotros">
             <div class="Tarjeta-Simple zoom">
-                <img src="Assets/Imagen1.jpeg " class="" alt="... ">
+                <img src="Assets/Imagen2.jpeg " class="" alt="... ">
                 <div class="Contenido-Tarjeta-Simple">
                     <h3>Lorem</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ut dignissimos ullam magni

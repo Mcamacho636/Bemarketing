@@ -28,6 +28,7 @@
 <body onload="cambioSrc();">
 
     <!--NavBar-->
+    
     <?php require("templates/ir-arriba.php");?>
     <?php require("templates/nav.php");?>
     <?php require("templates/video.php");?>
