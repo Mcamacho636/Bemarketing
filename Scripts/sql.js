@@ -105,3 +105,21 @@ function insertar(tabla, campos, tipo) {
         $('#button-1').attr("disabled", false);
     }
 }
+
+function cargaBlogs(tabla, campos, where, where_status) {
+    var xmlhttp = new XMLHttpRequest();
+
+    var url = "MySQL/consulta.php?tabla=" + tabla + "&campos=" + campos + "&where" + where + "&where_status=" + where_status;
+
+    xmlhttp.open("GET", url, true);
+
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            //var contenido = JSON.parse(xmlhttp.responseText);
+            $('#Contenido-Blog').html(xmlhttp.responseText);
+            //alert(contenido[0]);
+        }
+    };
+
+    xmlhttp.send();
+}

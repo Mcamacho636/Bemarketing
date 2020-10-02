@@ -11,9 +11,10 @@
 
     <script src="Scripts/jquery-3.5.1.js"></script>
     <script src="Scripts/nav.js"></script>
+    <script src="Scripts/sql.js"></script>
 </head>
 
-<body>
+<body onload="cargaBlogs('blog', '*', 'JALSÑDKJFÑ', 'NO');">
     <!--NavBar-->
     <?php require("templates/ir-arriba.php");?>
     <?php require("templates/nav.php");?>
