@@ -15,6 +15,7 @@
 
     <script src="Scripts/jquery-3.5.1.js"></script>
     <script src="Scripts/nav.js"></script>
+    <script src="Scripts/sql.js"></script>
 </head>
 
 <body>
