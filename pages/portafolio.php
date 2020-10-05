@@ -5,7 +5,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia placeat rerum consectetur fugit, tempore illum nobis facilis reiciendis!</p>
     </div>
 </section>
-    <main class="Contenedor-Seccion contenido-portafolio-proyectos" style="width: 100%; height: auto;">
+    <main class="Contenedor-Seccion contenido-portafolio-proyectos" style="width: 100%; height: auto; display: none;">
         <a href="proyecto.php?proyecto=laSal">
             <div class="tarjeta-proyecto zoom">
                 <div class="tarjeta-proyecto-texto">
