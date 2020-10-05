@@ -1,3 +1,5 @@
+var mensaje = 'Llene todos los datos';
+
 function validar_vacios(tipo) {
     var aux = '';
     if (tipo == 'general') {
@@ -6,6 +8,7 @@ function validar_vacios(tipo) {
         } else if ($('#correo_general').val() === '' || $('#correo_general').val().trim() === '') {
             return false;
         } else if ($("#correo_general").val().indexOf('@', 0) == -1 || $("#correo_general").val().indexOf('.', 0) == -1) {
+            mensaje = 'El correo tiene un formato inválido.';
             return false;
         } else if ($('#mensaje_general').val() === '' || $('#mensaje_general').val().trim() === '') {
             return false;
@@ -20,12 +23,15 @@ function validar_vacios(tipo) {
         } else if ($('#empresa_proyecto').val() === '' || $('#empresa_proyecto').val().trim() === '') {
             return false;
         } else if ($('#telefono_proyecto').val().length > 10 || $('#telefono_proyecto').val().length < 10) {
+            mensaje = 'El teléfono debe de ser de 10 digitos.';
             return false;
         } else if ($.isNumeric($('#telefono_proyecto').val()) === false) {
+            mensaje = 'Inserte solo números en el teléfono.';
             return false;
         } else if ($('#correo_proyecto').val() === '' || $('#correo_proyecto').val().trim() === '') {
             return false;
         } else if ($("#correo_proyecto").val().indexOf('@', 0) == -1 || $("#correo_proyecto").val().indexOf('.', 0) == -1) {
+            mensaje = 'El correo tiene un formato inválido.';
             return false;
         } else if ($('#giro_proyecto').val() === '' || $('#giro_proyecto').val().trim() === '') {
             return false;
@@ -95,9 +101,11 @@ function insertar(tabla, campos, tipo) {
         });
     } else {
         if (tipo === 'general') {
+            $("#alert-fail").html("<strong>¡No se pudo enviar el mensaje!</strong> " + mensaje);
             $("#alert-fail").css("display", "block");
             setTimeout("$('#alert-fail').css('display', 'none');", 5000);
         } else {
+            $("#alert-fail-1").html("<strong>¡No se pudo enviar el mensaje!</strong> " + mensaje);
             $("#alert-fail-1").css("display", "block");
             setTimeout("$('#alert-fail-1').css('display', 'none');", 5000);
         }
