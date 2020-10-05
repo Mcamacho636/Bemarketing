@@ -26,7 +26,7 @@
     
 </head>
 
-<body onload="cambioSrc(); cargaBlogs('blog ORDER BY Id_Entrada DESC LIMIT 0 , 2', '*', 'JALSÑDKJFÑ', 'NO');">
+<body onload="cambioSrc(); cargaBlogs('blog ORDER BY Id_Entrada DESC LIMIT 0 , 3', '*', 'JALSÑDKJFÑ', 'NO');">
 
     <!--NavBar-->
     
