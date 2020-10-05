@@ -14,7 +14,7 @@
     <script src="Scripts/sql.js"></script>
 </head>
 
-<body onload="cargaBlogs('blog', '*', 'JALSÑDKJFÑ', 'NO');">
+<body onload="cargaBlogs('blog ORDER BY Id_Entrada DESC', '*', 'JALSÑDKJFÑ', 'NO');">
     <!--NavBar-->
     <?php require("templates/ir-arriba.php");?>
     <?php require("templates/nav.php");?>

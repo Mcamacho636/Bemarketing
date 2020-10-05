@@ -1153,3 +1153,22 @@ a.scroll-top i {
     cursor: pointer;
     width: auto;
 }
+
+
+/*PLANTILLA DE BLOG*/
+
+.Plantilla-Blog {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Plantilla-Blog div {
+    align-items: center;
+    text-align: center;
+}
+
+.Categoria-Entrada {
+    width: 50%;
+}
