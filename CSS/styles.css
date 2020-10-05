@@ -81,7 +81,7 @@ h3 {
 }
 
 .Boton-Amarillo {
-    background-color: #F9CC34;
+    background-color: #FFC100;
     width: 20rem;
     text-align: center;
     text-decoration: none;
@@ -134,7 +134,7 @@ h3 {
 }
 
 .navbar a:hover {
-    color: #f9cb34;
+    color: #FFC100;
 }
 
 .navbar a.active {
@@ -221,7 +221,7 @@ h3 {
 }
 
 .footer-content a:hover {
-    color: #F9CC34;
+    color: #FFC100;
 }
 
 .footer-imgs {
@@ -397,7 +397,7 @@ a.scroll-top i {
 
 .Boton-Tarjeta {
     width: calc(100% - 6rem);
-    background-color: #F9CC34;
+    background-color: #FFC100;
     text-align: center;
     text-decoration: none;
     color: #ffffff;
@@ -453,7 +453,7 @@ a.scroll-top i {
 }
 
 .flip-card-back {
-    background-color: #F9CC34;
+    background-color: #FFC100;
     color: white;
     transform: rotateY(180deg);
     padding: 0 1rem;
@@ -494,7 +494,7 @@ a.scroll-top i {
     width: 100%;
     font-size: 15px;
     text-align: center;
-    background-color: #efb203;
+    background-color: #FFC100;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -608,7 +608,7 @@ a.scroll-top i {
 .tab button {
     width: 25%;
     margin: 0;
-    background-color: #F9CC34;
+    background-color: #FFC100;
     float: left;
     border: none;
     outline: none;
@@ -694,7 +694,7 @@ a.scroll-top i {
 }
 
 .card-indicadores {
-    background-color: #F9CC34;
+    background-color: #FFC100;
     border-radius: 20px;
     color: #fff;
     display: flex;
@@ -727,7 +727,7 @@ a.scroll-top i {
     height: 200px;
     padding: 2rem 0;
     margin: 0;
-    background-color: #F9CC34;
+    background-color: #FFC100;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -764,7 +764,7 @@ a.scroll-top i {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: #efb203;
+    background-color: #FFC100;
 }
 
 .Contenido-Acerca img {
@@ -799,7 +799,7 @@ a.scroll-top i {
 
 .tarjeta-equipo {
     margin: 0 10px;
-    background-color: #efb203;
+    background-color: #FFC100;
     color: #ffffff;
 }
 
@@ -1060,7 +1060,7 @@ a.scroll-top i {
 
 .Campo-Formulario input:focus {
     padding: 8px 5px;
-    border: 1px solid #F9CC34;
+    border: 1px solid #FFC100;
 }
 
 .Campo-Formulario select {
@@ -1070,7 +1070,7 @@ a.scroll-top i {
 }
 
 .Campo-Formulario textarea:focus {
-    border: 1px solid #F9CC34;
+    border: 1px solid #FFC100;
 }
 
 .Campo-Formulario textarea {
@@ -1141,7 +1141,7 @@ a.scroll-top i {
 }
 
 .boton-formulario {
-    background-color: #F9CC34;
+    background-color: #FFC100;
     border: none;
     color: white;
     padding: 15px 32px;
