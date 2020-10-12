@@ -17,7 +17,7 @@
     <script src="Scripts/sql.js"></script>
 </head>
 
-<body>
+<body onload="cargaServicios();">
     <!--NavBar-->
     <?php require("templates/ir-arriba.php");?>
     <?php require("templates/nav.php");?>

@@ -8,7 +8,6 @@
 
     if($where_status == 'SI'){
         $sql = "SELECT $campos FROM $tabla WHERE $where";
-        $entre = "Simon";
     }else{ 
         $sql = "SELECT $campos FROM $tabla";
     }

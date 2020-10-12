@@ -6,7 +6,7 @@
             illum nobis facilis reiciendis!</p>
     </div>
 </section>
-<main class="Contenedor-Seccion Contenido-Contacto-Form" style="height: auto;">
+<main class="Contenedor-Seccion Contenido-Contacto-Form" style="height: auto;"> 
     <div class="tab-contacto">
         <button class="tablinks-contacto" onclick="cambiarTab(event, 'ContactoGeneral')" id="defaultOpen">Contacto
             General</button>
@@ -68,28 +68,15 @@
                     <label for="giro_proyecto">Giro de la Empresa</label>
                     <input type="text" id="giro_proyecto">
                 </div>
-                <div class="Campo-Formulario">
-                    <h4>Servicios a cotizar:</h4>
-                    <div>
-                        <input type="checkbox" name="cb-redes-sociales " id="cb-redes-sociales "
-                            value="servicio-interes ">
-                        <label for="cb-redes-sociales ">Manejo de Redes</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="cb-fotografia " value="servicio-interes ">
-                        <label for="cb-fotografia ">Fotografía</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="cb-paginaweb " value="servicio-interes ">
-                        <label for="cb-paginaweb ">Diseño Web</label>
-                    </div>
+                <div class="Campo-Formulario" id="check-box">
+                    
                 </div>
                 <br>
                 <div class="Campo-Formulario ">
                     <label for="detalles_proyecto ">Detalles del Proyecto</label>
                     <textarea name=" " id="detalles_proyecto" cols="30 " rows="10 "></textarea>
                 </div>
-            </fieldset>
+            </fieldset> 
             <div class="alert-fail" id="alert-fail-1" style="display: none;">
                 <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
                 <strong>¡No se pudo enviar el mensaje!</strong> Llena todos los campos.

@@ -57,11 +57,22 @@ function vaciar() {
     $('#detalles_proyecto').val('');
 }
 
+function arrayCheck() {
+    var servicios = '';
+    $("input[name=cb_servicios]").each(function(index) {
+        if ($(this).is(':checked')) {
+            servicios = servicios + $(this).val() + ', ';
+        }
+    });
+    return servicios
+
+}
+
 //Función registrar Ajax
 function insertar(tabla, campos, tipo) {
-    var values = '';
     $('#button').attr("disabled", true);
     $('#button-1').attr("disabled", true);
+
     if (validar_vacios(tipo) !== false) {
         if (tipo === 'general') {
             values = "'" + $('#nombre_general').val() + "', ";
@@ -83,7 +94,8 @@ function insertar(tabla, campos, tipo) {
                 tabla: tabla,
                 campos: campos,
                 tipo: tipo,
-                correo: true
+                correo: true,
+                servicios: arrayCheck()
             },
             cache: false,
             success: function(dataResult) {
@@ -91,6 +103,7 @@ function insertar(tabla, campos, tipo) {
                     $("#alert-succes").css("display", "block");
                     setTimeout("$('#alert-succes').css('display', 'none');", 5000);
                 } else {
+
                     $("#alert-succes-1").css("display", "block");
                     setTimeout("$('#alert-succes-1').css('display', 'none');", 5000);
                 }
@@ -101,7 +114,7 @@ function insertar(tabla, campos, tipo) {
         });
     } else {
         if (tipo === 'general') {
-            $("#alert-fail").html("<strong>¡No se pudo enviar el mensaje!</strong> " + mensaje);
+            $("#alert-fail").html("<span class='closebtn' onclick='this.parentElement.style.display='none';'>&times;</span><strong>¡No se pudo enviar el mensaje!</strong> " + mensaje);
             $("#alert-fail").css("display", "block");
             setTimeout("$('#alert-fail').css('display', 'none');", 5000);
         } else {
@@ -128,6 +141,20 @@ function cargaBlogs(tabla, campos, where, where_status) {
             } else {
                 $('#Contenido-Blog').html(xmlhttp.responseText);
             }
+        }
+    };
+
+    xmlhttp.send();
+}
+
+function cargaServicios() {
+    var xmlhttp = new XMLHttpRequest();
+    var url = "MySQL/checkbox.php";
+    xmlhttp.open("POST", url, true);
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            $('#check-box').html(xmlhttp.responseText);
+            alert
         }
     };
 
