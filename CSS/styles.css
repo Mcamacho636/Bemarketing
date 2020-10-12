@@ -361,6 +361,16 @@ a.scroll-top i {
     }
 }
 
+.Tarjeta-Circulo {
+    width: 25%;
+    margin: 0 calc(25% / 6);
+}
+
+.Tarjeta-Circulo img {
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
 
 /* CSS para tarjeta con botón */
 
@@ -593,68 +603,60 @@ a.scroll-top i {
 
 /* Seccion de servicios */
 
-.Contenido-Servicios {
-    margin: 0 10%;
-}
+
+/* Style the tab */
 
 .tab {
-    overflow: hidden;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    max-width: 30%;
+    width: 30%;
+    height: 400px;
 }
 
+
+/* Style the buttons that are used to open the tab content */
+
 .tab button {
-    width: 25%;
-    margin: 0;
-    background-color: #FFC100;
-    float: left;
+    display: block;
+    background-color: inherit;
+    font-size: 15px;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
     border: none;
     outline: none;
+    text-align: left;
     cursor: pointer;
-    padding: 1.4rem 1.6rem;
     transition: 0.3s;
-    font-size: 1.7rem;
-    margin-right: 6.25%;
-    margin-left: 6.25%;
 }
+
+
+/* Change background color of buttons on hover */
 
 .tab button:hover {
     background-color: #ddd;
 }
 
+
+/* Create an active/current "tab button" class */
+
 .tab button.active {
     background-color: #ccc;
 }
 
+
+/* Style the tab content */
+
 .tabcontent {
-    width: 80%;
-    height: 40rem;
-    display: none;
-    border-top: none;
-    margin: 0;
-}
-
-.tabcontent img {
-    height: 100%;
-    width: 100%;
-}
-
-@media screen and (max-width: 750px) {
-    .tabcontent {
-        width: 98%;
-        height: auto;
-    }
-    .tab {
-        width: 98%;
-    }
-    .tab button {
-        padding: 1rem 1.2rem;
-        font-size: 1rem;
-        margin-right: 6.25%;
-        margin-left: 6.25%;
-    }
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    max-width: 70%;
+    width: 60%;
+    border-left: none;
+    height: 400px;
 }
 
 
@@ -760,26 +762,31 @@ a.scroll-top i {
 
 /* contenido acerca de */
 
-.Contenido-Acerca {
+.Contenido-Nosotros-General {
+    display: flex;
+    flex-direction: column
+}
+
+.wave-container {
+    position: relative;
+    background: #FFC100;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+}
+
+.wave-container>svg {
+    display: block;
+    background: #fff;
+}
+
+.Contenedor-Nosotros {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    background-color: #FFC100;
 }
 
-.Contenido-Acerca img {
+.Contenedor-Nosotros img {
     width: 40%;
-    height: auto;
-}
-
-.texto-acerca-de {
-    width: 60%;
-    padding: 30px;
-}
-
-.texto-acerca-de p {
-    font-size: 18px;
-    text-align: justify;
 }
 
 @media screen and (max-width: 750px) {
@@ -972,35 +979,6 @@ a.scroll-top i {
     }
     to {
         transform: scale(1)
-    }
-}
-
-
-/* The Close Button */
-
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-/* 100% Image Width on Smaller Screens */
-
-@media only screen and (max-width: 700px) {
-    .modal-content {
-        width: 100%;
     }
 }
 
