@@ -48,7 +48,7 @@
                 $( document ).ready(function() {
                         $( '#preview' ).attr('href', 'entrada_blog.php?Entrada=$anterior');
                         $( '#next' ).attr('href', 'entrada_blog.php?Entrada=$siguiente');
-                        if($siguiente > 4){
+                        if($siguiente > 6){
                             $( '#next' ).css('display', 'none'); 
                         }
                 });
