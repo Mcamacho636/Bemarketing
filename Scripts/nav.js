@@ -18,10 +18,11 @@ window.onscroll = function() {
     prevScrollpos = currentScrollPos;
 
     var scrollTop = $(window).scrollTop();
-    var windows_width = $(window).height();
+    var windows_heigth = $(window).height();
     var pathname = window.location.pathname;
     if (pathname === "/Repositorio%20BeMarketing/Bemarketing/index.php") {
-        if (scrollTop < windows_width) {
+        $('#myNavbar').css("background-color", "transparent");
+        if (scrollTop < windows_heigth) {
             $('#myNavbar').css("background-color", "transparent");
         } else {
             $('#myNavbar').css("background-color", "#000000");

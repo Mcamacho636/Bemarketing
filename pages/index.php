@@ -1,65 +1,72 @@
-    <!--SECCIÓN DE MÁS SOBRE NOSOTROS-->
-    <section class="Contenedor-Seccion">
+
+<!-- SECCIÓN DE MÁS SOBRE NOSOTROS -->
+<section class="Contenedor-Seccion" style="background-color: #1F1F22; color: #ffffff;">
+        <br>
         <h2 class="Centrar-Texto Texto-Mayusculas">¿Por qu&eacute; Bemarketing?</h2>
         <div class="Contenido-Nosotros">
-            <div class="Tarjeta-Simple zoom">
+            <div class="Tarjeta-Circulo zoom">
                 <img src="Assets/Imagen2.jpeg " class="" alt="... ">
                 <div class="Contenido-Tarjeta-Simple">
                     <h3>Lorem</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ut dignissimos ullam magni
-                        ipsam odit dicta beatae similique quos obcaecati officia, id nesciunt vel saepe ducimus,
-                        incidunt, in sint ea.</p>
                 </div>
             </div>
-            <div class="Tarjeta-Simple zoom">
+            <div class="Tarjeta-Circulo zoom">
                 <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                 <div class="Contenido-Tarjeta-Simple">
                     <h3>Lorem</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ut dignissimos ullam magni
-                        ipsam odit dicta beatae si  milique quos obcaecati officia, id nesciunt vel saepe ducimus,
-                        incidunt, in sint ea.</p>
                 </div>
             </div>
-            <div class="Tarjeta-Simple zoom">
+            <div class="Tarjeta-Circulo zoom">
                 <img src="Assets/Imagen1.jpeg " class="" alt="... ">
                 <div class="Contenido-Tarjeta-Simple">
                     <h3>Lorem</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ut dignissimos ullam magni
-                        ipsam odit dicta beatae similique quos obcaecati officia, id nesciunt vel saepe ducimus,
-                        incidunt, in sint ea.</p>
                 </div>
             </div>
         </div>
-    </section>
+        <br>
+</section>
 
-    <!--SECCIÓN DE SERVICIOS-->
-    <main class="Contenedor-Seccion">
+<!-- SECCIÓN DE SERVICIOS -->
+<main class="Contenedor-Seccion" style="heigth: 800px;">
         <center>
             <h1 class="Centrar-Texto Texto-Mayusculas">Servicios</h1>
-            <div class="Contenido-Servicios">
-                <div class="tab">
-                    <button class="tablinks button.active" onclick="openCity(event, 'London')">London</button>
-                    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-                </div>
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Branding')" id="defaultOpen">Branding</button>
+                <button class="tablinks" onclick="openCity(event, 'Ecommerce')">Ecommerce</button>
+                <button class="tablinks" onclick="openCity(event, 'Marketing_Digital')">Marketing Digital</button>
+                <button class="tablinks" onclick="openCity(event, 'Diseño_Web')">Diseño Web</button>
+                <button class="tablinks" onclick="openCity(event, 'Multimedia')">Multimedia</button>
+            </div>
 
-                <div id="London" class="tabcontent" style="display: block;">
-                    <img src="Assets/Imagen1.jpeg" alt="">
-                </div>
+            <div id="Branding" class="tabcontent">
+                <h3>London</h3>
+                <p>London is the capital city of England.</p>
+            </div>
 
-                <div id="Paris" class="tabcontent">
-                    <img src="Assets/Imagen2.jpeg" alt="">
-                </div>
+            <div id="Ecommerce" class="tabcontent">
+                <h3>Paris</h3>
+                <p>Paris is the capital of France.</p> 
+            </div>
 
-                <div id="Tokyo" class="tabcontent">
-                    <img src="Assets/Imagen3.jpg" alt="">
-                </div>
+            <div id="Marketing_Digital" class="tabcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+
+            <div id="Diseño_Web" class="tabcontent">
+                <h3>CDMX</h3>
+                <p>Paris is the capital of France.</p> 
+            </div>
+
+            <div id="Multimedia" class="tabcontent">
+                <h3>PRUEBA</h3>
+                <p>Tokyo is the capital of Japan.</p>
             </div>
         </center>
-    </main>
+</main>
 
-    <!--SECCION DE TRABAJAOS-->
-    <section class="Contenedor-Seccion">
+<!-- SECCIÓN DE TRABAJAOS -->
+<section class="Contenedor-Seccion">
         <h2 class="Centrar-Texto Texto-Mayusculas">portafolio</h2>
         <div class="Contenido-Trabajos">
             <a href="proyecto.php?proyecto=Andylegal" class="wow animate__animated animate__backInLeft" data-wow-delay="1.4s">
@@ -108,10 +115,10 @@
                 </div>
             </a>
         </div>
-    </section> 
+</section>
     
-    <!-- SECCION DE CLIENTES SATISFECHOS -->
-    <section class="Contenedor-Seccion">
+<!-- SECCIÓN DE CLIENTES SATISFECHOS -->
+<section class="Contenedor-Seccion">
         <h2 class="Centrar-Texto Texto-Mayusculas">casos de &eacute;xito</h2>
         <div class="Carrusel-Infinito">
             <div class="slider">
@@ -176,19 +183,25 @@
             </div>
         </div>
 
-    </section>
+</section>
 
-    <!-- Seccion de Contacto -->
-    <section class="Contenedor-Seccion Contenido-Contacto">
+<!-- SECCIÓN DE CONTACTO -->
+<section class="Contenedor-Seccion Contenido-Contacto">
         <h2 class="Centrar-Texto Texto-Mayusculas">¿Te gusto lo que viste?</h2>
         <a href="contacto.php"
             class="Boton-Negro Texto-Mayusculas wow animate__animated animate__shakeY zoom">contactanos</a>
-    </section>
+</section>
 
-    <!-- Sección de blog -->
-    <section class="Contenedor-Seccion">
+<!-- SECCIÓN DE BLOG -->
+<section class="Contenedor-Seccion">
         <h2 class="Centrar-Texto Texto-Mayusculas">Nuestro blog</h2>
         <div class="Contenido-Blog" id="Contenido-Blog">
             
         </div>
-    </section> 
+</section>
+
+<script>
+    var cw = $('.Tarjeta-Circulo').width();
+    cw = cw + 20;
+    $('.Tarjeta-Circulo').css({'height':cw+'px'});
+</script>

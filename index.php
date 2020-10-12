@@ -21,12 +21,13 @@
         new WOW().init();
     </script>
     <script src="Scripts/nav.js"></script>
+    <script src="Scripts/video.js"></script>
     <script src="Scripts/servicios.js"></script>
     <script src="Scripts/sql.js"></script>
     
 </head>
 
-<body onload="cambioSrc(); cargaBlogs('blog ORDER BY Id_Entrada DESC LIMIT 0 , 3', '*', 'JALSÑDKJFÑ', 'NO');">
+<body onload="cambioSrc(); cargaBlogs('blog ORDER BY Id_Entrada DESC LIMIT 0 , 3', '*', 'JALSÑDKJFÑ', 'NO'); openCity(event, 'Branding');">
 
     <!--NavBar-->
     
