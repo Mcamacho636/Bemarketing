@@ -10,7 +10,7 @@
         <a href="https://www.behance.net/bemamanzane2a9" target="_blank"><img src="Assets/Behance.png"
                 alt="Logo Behance"></a>
     </nav>
-    <p class="">2020 Todos los derechos reversados &copy;</p>
+    <p class="">2020 Todos los derechos reservados &copy;</p>
     <nav class="footer-content">
         <a href="nosotros.php">Nosotros</a>
         <a href="portafolio.php">Portafolio</a>
